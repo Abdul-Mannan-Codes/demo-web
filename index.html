@@ -4,8 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML BASICS</title>
+    <link
+            rel="icon"
+            href="logo4.png"
+            type="image/x-icon"
+        />
 </head>
 <body>
-    
+    <h1 align="center"> This is Heading1 aligned to center </h1>
+    <h2> Heading 2</h2>
+    <h3> Heading 3</h3>
+    <h4> Heading 4</h4>
+    <h5> Heading 5</h5>
+    <h6> This is the least Heading6 followed by 2 Horizontal Lines </h6>
+    <hr>
+    <hr size = 20px width="50%" color="GREEN">
+    <p> This is a paragraph followed by a LineBreak .</p>
+    <br>
+    <p> <b> This is a Bold text followed by a Line Break</b></p> <br>
+    <p> <i> This is an Italic text</i></p>
+    <p> <strong> This a STRONG Text introduced in HTML5 </strong></p>
+    <p> <em> This is an Embedded Text introduced in HTML5 </em></p>
+    <h3> This is a <span> Span </span> text </h3>
+    <h3> 2 <sup>10</sup> = 1024</h3>
+    <h3> H<sub>2</sub>0 is the Chemical formula of Water</h3>
+    <h2> LISTS </h2>
+    <hr>
+    <h3> FRUITS [Ordered List] </h3>
+    <ol>
+        <li> Apple </li>
+        <li> Mango </li>
+        <li> Banana </li>
+    </ol>
+    <hr>
+    <h3> VEGGIES [Unordered List] </h3>
+    <ul>
+        <li> Brinjal </li>
+        <li> Cabbage </li>
+        <li> Tomato </li>
+    </ul>
+    <hr>
+    <table border>
+        <tr>
+            <th> LANGUAGES </th>
+            <th> ROLES </th>
+        </tr>
+        <tr>
+            <td> HTML </td>
+            <td> Web Structure </td>
+        </tr>
+        <tr>
+            <td> CSS </td>
+            <td> Web Style </td>
+        </tr>
+        <tr>
+            <td> HTML </td>
+            <td> Web Logic </td>
+        </tr>
+    </table> <hr>
+        <h2> Watch M3GAN Trailer on  (utilizing iframe tag)<br> <img src="netflix.png" height="50%" width="50%"> </h2>
+ 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BRb4U99OU80?si=e-R8Int4CQo3OOwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button type="button"> CLICK ME </button>
+        <br>
+        <p> An example of Anchor tag -> </p>
+        <a href="https://github.com/" target="_blank"> GITHUB </a>
+        <hr size="5px" color="red">
+        <h1> FORM </h1>
+        <div class="form">
+            <form method="post" action="submit.html">
+                <label> Enter Email </label>
+                <input type="email" name="email" value="" placeholder="Enter Email here" required>
+                <br> <br> 
+                <label> Enter Username </label>
+                <input type="text" name="username" value="" placeholder="Enter your Username here">
+                <br> <br> 
+                <label> Enter Password </label>
+                <input type="password" name="password" required>
+                <br> <br> 
+                <label> Enter Phone Number </label>
+                <input type="number" name="phno">
+                <br> <br> 
+                <label> Select Date of Birth </label>
+                <input type="date" name="dob">
+                <br> <br> 
+                <label> Select Gender : </label>
+                Male <input type="radio" name="gender" value="Male"> 
+                Female <input type="radio" name="gender" value="Female"> 
+                <br> <br>
+                <label> Choose your known languages : </label>
+                C <input type="checkbox" name="language" value="C">
+                C++ <input type="checkbox" name="language" value="C++">
+                Java <input type="checkbox" name="language" value="Java">
+                Python <input type="checkbox" name="language" value="Python">
+                Javascript <input type="checkbox" name="language" value="Javascript">
+                <br> <br>
+                <label> Choose file </label>
+                <input type="file" name="file">
+                <br> <br> 
+                <label> Select your Nationality </label>
+                <select>
+                    <option value="Indian"> Indian </option>
+                    <option value="Korean"> Korean </option>
+                    <option value="Pakistani"> Pakistani </option>
+                    <option value="British"> British </option>
+                    <option value="American"> American </option>
+                </select>
+                <br> <br>
+                <label> Write your feedback about the webpage </label> <br>
+                <textarea type="textarea" height="500px" width="600px" placeholder="Feedback here"></textarea>
+                <br> <br>
+                <input type="submit" name="submit" value="Submit">
+            </form>
+        </div>
 </body>
 </html>
