@@ -83,6 +83,12 @@ button{
     font-size: 15px;
     font-weight:bolder;
     margin-left:1000px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #e5e5e5;
+    color:#fca311;
+    border-color: #fca311;
 }
 a:hover{
     color:white;
